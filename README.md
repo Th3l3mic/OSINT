@@ -1,2 +1,0 @@
-# OSINT
-OSINT Cheat Sheets
