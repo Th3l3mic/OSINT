@@ -4,7 +4,7 @@
 # Darkweb OSINT
 
 * <h2>Search engines:</h2>
-  - some of this search engines works both in clear, and dark net. Have different functionalities, so it's strongly recomended for use more than one search engine
+  - some of these search engines work both in clear, and dark net. Have different functionalities, so it's strongly recomended to use more than one.
 * <p></p>
   Ahmia <code>https://ahmia.fi/</code>
   <p></p>
@@ -14,7 +14,7 @@
 * Not Evil <code>hss3uro2hsxfogfq.onion/</code>
 <p></p>
 <h2>Dark links:</h2>
-  - list of dark links could be good starting point to recon, remember that some of onion pages collected on lists, may get shut down
+  - list of dark links could be good starting point to recon, remember that some of onion pages collected on lists may shut down
   <p></p>
 * Dark.fail <code>https://dark.fail/</code>
 <p></p>
@@ -22,7 +22,7 @@
 <p></p>
 <h2>Using Shodan and Censys search for gathering information</h2>
 <p></p>
-* There's a multiple way for gathering darkweb informaction, especially when we talk about site's and services. One of the best way is to paste onion site adres into search engines like Shodan. We could receive lot of useful information for example target location, and possible header's for deeper search.
+* There's a multiple way for gathering darkweb information, especially when we talk about sites and services. One of the best way is to paste onion site adres into search engines like Shodan. We could receive lot of useful information, for example target location and possible headers for deeper search.
 <p></p>
 <code>shodan.io</code>
 <p></p>
@@ -30,24 +30,24 @@
 <p></p>
 <h2>Favicons</h2>
 <p></p>
- - in case of darkweb site's it's also possible to search hosting servers via favicon search. First get the favicon image, than calculate the hash with online service on python script, for example use this site: <code>https://favicon-hash.kmsec.uk/</code>
+ - in case of darkweb site's it's also possible to search hosting servers via favicon search. First get the favicon image, then calculate the hash with online service or python script, for example use this site: <code>https://favicon-hash.kmsec.uk/</code>
  <p></p>
  Next paste query in Shodan:
  <p></p>
  <code>http.favicon.hash:PasteYourHashHere</code>
 
  <h2>Bitcoin chain explorer</h2>
-  * In case when we want to check autheticity of a dark web market we could use bitcoinchain exlorer for checking that this site is valid or not. 
+  * In case when we want to check autheticity of a dark web market we could use bitcoinchain explorer for checking if this site is valid or not. 
 
 
 <h2> Analyzing photos </h2>
 <p></p>
-* Use reverse search for analyzing photos that you found on darkweb site, vie reverse search:
+* Use reverse search for analyzing photos that you found on darkweb site, via reverse search:
 <code>https://images.google.com/</code>
 <p></p>
 <code>https://yandex.com/images/</code>
 <p></p>
-For better resukt;s always use multiple search engines.
+For better result's always use multiple search engines.
 <p></p>
 * Exif data
 - use sofware or online tool for reading exif data
@@ -63,6 +63,6 @@ Onion Scan<code>https://github.com/s-rah/onionscan</code>
 <p></p>
 TorBot<code>https://github.com/DedSecInside/TorBot</code>
 
-There's always more, but above I've presents method's that I use a lot during my "DarkWeb investigations". Big thank's for Osint DOJO channel for great resources and doing high quality content during years.
+There's always more, but above I've presented methods that I use a lot during my "DarkWeb investigations". Big thanks for Osint DOJO channel for great resources and doing high quality content.
 
 T.
